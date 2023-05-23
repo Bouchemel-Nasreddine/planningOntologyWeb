@@ -1,0 +1,1193 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/asumic/ontologies/2023/4/planningontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/asumic/ontologies/2023/4/planningontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/planningontology#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/bfo/2020/bfo.owl</Import>
+    <Import>http://www.w3.org/2006/time#2016</Import>
+    <Import>https://purl.industrialontologies.org/ontology/core/20220506/Core/</Import>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realease_at_all_time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#calendar_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#variable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#preemptive_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_solution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interruptible"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#optimization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#process_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nonpreemtive_process"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realeased_at_some_time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#current_state"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#gregorian_day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#continuous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#intelligent_agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#calendar_day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nominal_measurement_information_content_entity"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#Minimization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#schedule_specification"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/elucidation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#availablestate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#mathematical_function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#modelizedProblem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#solution_process"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interrupted_state"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#initial_state"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reference_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#future_state"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#Maximization"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#example"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#action"/>
+        <ObjectIntersectionOf>
+            <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/PlannedProcess"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#intelligent_agent"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nonpreemtive_process"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000167"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#continuous"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#preemptive_process"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000117"/>
+                    <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interruptible"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000167"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interruptible"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#solution_process"/>
+        <ObjectIntersectionOf>
+            <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/PlannedProcess"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000059"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_solution"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000117"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#future_state"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000117"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#initial_state"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000167"/>
+            <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#process_quality"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/time#hasDuration"/>
+            <Class IRI="http://www.w3.org/2006/time#Duration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#availablestate"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#calendar_day"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#calendar_system"/>
+        <Class IRI="http://www.w3.org/2006/time#TRS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#continuous"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#process_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#continuous"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000166"/>
+            <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nonpreemtive_process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#current_state"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#current_state"/>
+        <ObjectIntersectionOf>
+            <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/State"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000139"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#future_state"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#future_state"/>
+        <ObjectIntersectionOf>
+            <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/State"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000139"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/describedBy"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_specification"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/satisfies"/>
+                <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/RequirementSpecification"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#future_state"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/time#after"/>
+            <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#initial_state"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#gregorian_day"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#calendar_day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#initial_state"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#initial_state"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000139"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/describedBy"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_specification"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isInputOf"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_process"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#initial_state"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/time#before"/>
+            <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#future_state"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#intelligent_agent"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#intelligent_agent"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#intelligent_agent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/hasDisposition"/>
+            <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interrupted_state"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interrupted_state"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/describes"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#current_state"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/describes"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#future_state"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interruptible"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#process_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interruptible"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000166"/>
+            <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#preemptive_process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#mathematical_function"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DesignSpecification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#mathematical_function"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000178"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isInputOf"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_process"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#modelizedProblem"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DesignSpecification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#modelizedProblem"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000110"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#mathematical_function"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000110"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#optimization"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000110"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000110"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_requirement"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000110"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#variable"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000177"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_specification"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nominal_measurement_information_content_entity"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#optimization"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DirectiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#optimization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000110"/>
+            <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#mathematical_function"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#optimization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/prescribes"/>
+            <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000110"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#variable"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000110"/>
+                <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000110"/>
+                <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000197"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#modelizedProblem"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter_specification"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter_specification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/describes"/>
+            <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#preemptive_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_requirement"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/RequirementSpecification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_requirement"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000058"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#solution_process"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isAbout"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#future_state"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_specification"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_specification"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000110"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#modelizedProblem"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/describes"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#current_state"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/describes"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#future_state"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#process_quality"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#process_quality"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000166"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/prescribes"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nominal_measurement_information_content_entity"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_capability"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/Capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_process"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/PlannedProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_process"/>
+        <ObjectUnionOf>
+            <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/ComputingProcess"/>
+            <ObjectIntersectionOf>
+                <ObjectIntersectionOf>
+                    <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#action"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/Agent"/>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/hasInput"/>
+                        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#initial_state"/>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/hasInput"/>
+                        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_requirement"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/hasOutput"/>
+                    <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_solution"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_solution"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DirectiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_solution"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/isOutputOf"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_process"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/prescribes"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/satisfies"/>
+                <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_requirement"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reference_system"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#schedule_specification"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_solution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#schedule_specification"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000110"/>
+                    <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/PlanSpecification"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/prescribes"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000008"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/prescribes"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000008"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="https://purl.industrialontologies.org/ontology/core/Core/prescribes"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#variable"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DesignativeInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#variable"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000177"/>
+            <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/DesignSpecification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/time#TRS"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reference_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/time#TemporalDuration"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/time#TimeZone"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000038"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#process_quality"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#mathematical_function"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#modelizedProblem"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nominal_measurement_information_content_entity"/>
+        <Class IRI="http://www.w3.org/2006/time#TemporalUnit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nonpreemtive_process"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#preemptive_process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#optimization"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_solution"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#process_quality"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_specification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter_specification"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reference_system"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_specification"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reference_system"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_process"/>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#solution_process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#schedule_specification"/>
+        <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/PlanSpecification"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#optimization"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#Maximization"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#optimization"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#Minimization"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realease_at_all_time"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realeased_at_some_time"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realease_at_all_time"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realeased_at_some_time"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasDuration"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realease_at_all_time"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realeased_at_some_time"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            <Class IRI="https://purl.industrialontologies.org/ontology/core/Core/InformationContentEntity"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://purl.obolibrary.org/obo/BFO_0000015</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Process(x) → Occurent(x) ∧ ∃p( ProcessQuality(p) ∧ hasParticipatantAtAllTime(x,p))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#action</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Process in which at least one Agentsis is involved</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#action</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#action</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CCO: Act</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#action</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Action ↔ PlannedProcess(x) ∧∃y, ∃m, ∃e (IntelligentAgent(y) ∧ hasParticipantAtSomeTime(x,y) ∧MaterialEntity(m) ∧ hasParticipantAtSomeTime(x,m))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#availablestate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is a state in which a material entity is not participating in a process during a certain among of time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#availablestate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">available state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#calendar_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Temporal Reference System that is designed to organize and identify dates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#calendar_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Calendar System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#calendar_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/elucidation"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#calendar_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Calendars typically organize dates through the use of naming and temporal conventions based on Days, Weeks, Months, and Years.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#continuous</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1. is a process quality that design an action as contunious, which mean that such action cannot be interrupt.
+2. designate an action that cannot be in interrupt state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#continuous</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">continuous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#continuous</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Continuous(x) → Quality(x) ∧ ∃p( NonPreemptiveProcess(p) ∧ participatesInAtAllTime(x,p))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#current_state</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is a state which represent a current state in the temporal representation at time t&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#current_state</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">current state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#current_state</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CurrentState → State(x)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#future_state</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is a state which represent an achievable state which take place in a future timeline at time t+ n than the current state at time t.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#future_state</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">future state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#future_state</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FutureState → State(x) ∧ ∃p, ∃p&apos;, ∃r, ∃i (ProblemSpecification(p) ∧ describedBy(p,x) ∧  RequirementSpecification(r) ∧ satisifes(x,r) ∧ InitialState(i) ∧ after(x,i))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#initial_state</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is a state which is the first instance of a solution process and is describe by some problem specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#initial_state</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">initial state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#initial_state</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">InitialState → State(x) ∧ ∃p, ∃r, ∃p&apos;, ∃f (ProblemSpecification(p) ∧ describedBy(p,x) ∧ ReasoningProcess(r) ∧ isInputOf(x,r) ∧ FutureState(f) ∧ before(x,f)  )</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#intelligent_agent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">intelligent agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interrupted_state</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is a state which represent a process that is interrupt for an indetermined period of time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interrupted_state</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">interrupted state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interrupted_state</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Interrupted state → State(x) ∧ ∃p, ∃y (PreemptiveProcess(p) ∧ temporalPartOf(p,x) ∧ )</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interruptible</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1. is a process characteristic that design an action as interruptible, which mean that such process can be interrupt more than one time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interruptible</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">interruptible</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#interruptible</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Interruptible(x) → Quality(x) ∧ ∃p( PreemptiveProcess(p) ∧ participatesInAtAllTime(x,p))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#mathematical_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A mathematical information that as quality some parameter and is input of some reasoning process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#mathematical_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mathematical function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#mathematical_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MathematicalFunction → DesignSpecification(x) ∧ ∃p (Parameter(p) ∧ hasContinuantPartAtSomeTime(p,x)) ∧∃r (ReasoningProcess(r) ∧ isInputOf(x,r))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#modelizedProblem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an ICE that is a scientific representation of a problem specification that can perform some process to satisfies some objective specification and has continuant part at some time some continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#modelizedProblem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">modelized problem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#modelizedProblem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ProblemModelization → DesignSpecification(x) ∧ ∃p (Parameter(p) ∧ hasContinuantPartAtAllTimes(x,p)) ∧ ∃p&apos; (ProblemRequirement(p&apos;) ∧hasContinuantPartAtAllTimes(x,p&apos;)) ∧ ∃v ( Variable(v) ∧ hasContinuantPartAtAllTimes(x,v)) ∧ ∃m (MathematicalFunction(m) ∧ hasContinuantPartAtAllTimes(x,m)) ∧ ∃s (ReasoningStrategy(s) ∧ hasContinuantPartAtAllTimes(x,s) ∧ ∃p&apos;&apos; (ProblemSpecification(p) ∧ continuantPartAtAllTimes(x,p&apos;&apos;))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nominal_measurement_information_content_entity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Measurement Information Content Entity that consists of a symbol that classifies Entities according to some shared, possibly arbitrary, characteristic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nominal_measurement_information_content_entity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Measurement Information Content Entity that consists of a symbol that classifies process according to their current state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nominal_measurement_information_content_entity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">nominal measurement information content entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nominal_measurement_information_content_entity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CCO: http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nominal_measurement_information_content_entity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NominalMeasurementInformationContentEntity → MeasurementInformationContentEntity(x) ∧ ∃m(MeasurementProcess(m) ∧ isOutputOf(x,m))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nonpreemtive_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is a process which cannot be interrupted and thus continiou its execution until it end</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nonpreemtive_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">nonpreemtive process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#nonpreemtive_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NonpreemtiveAction ↔ Process(p) ∧ ∃c( Continuous(c) ∧hasParticipantAtAllTime(p, c))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#optimization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1) It is an ICE that prescribe the reasoning process, it either minimize or maximize some mathematical function.
+2) A mathematical term which determines the stategy the reasoning process will perform.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#optimization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">optimization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#optimization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ReasoningStrategy → DirectiveInformationContentEntity(x) ∧ ∃p, ∃m (ReasoningProcess(p) ∧ prescribes(x,p) ∧ hasContinuantPartAtAllTimes(x,m) ∧ MathematicalFunction(m) )</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A quality that inheres in a problem modelization and has continuant part at all times some variable and some Measurement ICE and some descriptive ICE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Parameter → Quality(x) ∧ ∃p(ProblemModelization(p) ∧ inheres(x,p)) ∧ ∃v(Variable(v) ∧ hasContinuantPartAtAllTimes(x,v)) ∧ ∃m( MeasurementInformationContentEntity(m) ∧ hasContinuantPartAtAllTimes(x,m)) ∧ ∃d( DescriptiveInformationContentEntity(d) ∧ hasContinuantPartAtAllTimes(x,d))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is an ICE that describes some parameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">parameter specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#parameter_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ParameterSpecification → DescriptiveInformationContentEntity(x) ∧ ∃y (Parameter(y) ∧ describes(x,y))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#preemptive_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is a process which can be interrupted and thus, release its participant until it restart or not</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#preemptive_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">preemptive process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#preemptive_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PreemtiveProcess ↔ Process(p) ∧ ∃i, ∃i&apos;( Interruptible(i) ∧ hasParticipanteAtAllTime(i,p)) ∨( InterruptedState(i&apos;) ∧ hasOccurantPartAtSomeTime(p,i&apos;))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_requirement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is a requirement to represent the intention of achieving some future state from an initial state describes by a problem specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_requirement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">problem requirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_requirement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ProblemRequirement(x) →RequirementSpecification(x) ∧ ∃f, ∃s(FutureState(y) ∧ isAbout(x,y) ∧ SolutionProcess(s) ∧ isConcretizeAtSomeTime(x,s) )</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is an information that describe a current state and an attaignable final state in which an agent intend to reach through some process.
+curent state existe at time t and future state exist at time t+n</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">problem specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#problem_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ProblemSpecification → DescriptiveInformationContentEntity(x) ∧ ∃c, ∃f, ∃p (CurrentState(c) ∧ describes(x,c) ∧ FutureState(f) ∧ describes(x,f) ∧ ProblemModelization(p) ∧ hasContinuantPartAtAllTime(p,x))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#process_quality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1. is a process characteristic that design capacity of an action to be interrupted or not during its execution.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#process_quality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">process quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#process_quality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ProcessQuality(x) → Quality(x) ∧ ∃p( Process(p) ∧ participatesInAtAllTime(x,p))&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realease_at_all_time</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;release at all time&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realease_at_all_time</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p is a process and m is a material entity or some information content entity, p release m mean that m is no longer part of p until p is over.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realease_at_all_time</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">release at all time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realeased_at_some_time</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">release at some time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realeased_at_some_time</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p is a process and m is a material entity or some information content entity, p release m mean that m is no longer part of p at some time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#realeased_at_some_time</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">release at some time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is a capability in where a material entity is capable of providing a solution to go from an initial state to a future state of a problem specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">reasoning capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is an action or computing process which provide some reasoning solution to a problem specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">reasoning process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ReasoningProcess(x) → (Action(x) ∨ ComputingProcess(x)) ∧ ∃i, ∃p, ∃a ( InitialState(i) ∧ ProblemRequirement(p) ∧ hasInputOf(x,i) ∧ hasInputOf(x,p) ∧ Agent(a) ∧ hasParticipantAtSomeTimes(x, a)) ∧ ∃r( ReasoningSolution(r) ∧ hasOutput(x,r)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_solution</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is the output of some reasoning process that prescribe a set of guideline to a process to satisfies a problem specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_solution</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">reasoning solution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reasoning_solution</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ReasoningSolution → DirectiveInformationContentEntity(x) ∧ ∃p(Process(p) ∧ prescribes(x,p)) ∧ ∃r(ReasoningProcess(r) ∧ isOutputOf(x,r)) ∧ ∃r&apos;( RequirementSpecification(r&apos;) ∧ satifies(x,r&apos;))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reference_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Descriptive Information Content Entity that describes a set of standards for organizing and understanding data of the specified type or domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reference_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">reference system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#reference_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#schedule_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">schedule is about some planned specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#schedule_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">schedule specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#schedule_specification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ScheduleSpecification(x) ↔ ReasoningSolution(x) ∧ ∃p (PlanSpecification(p) ∧hasContinuantPartAtAlTime(x,p) ∧ ( ∃t, ∃m(TemporalRegion(t) ∧ prescribe(x,t) ∧ MaterialEntity(m) ∧ prescribe(x,m)) ∨ ∃t(TemporalRegion(t) ∧ prescribe(x,t))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#solution_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is a process which execute some reasoning solution to reach some problem requirement. Such process intent some material entity to go from one state to another which mean the environment change after executing the process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#solution_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">solution process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#solution_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SolutionProcess(x) ↔ plannedProcess(x) ∧ ∃r, ∃i, ∃f( ReasoningSolution(r) ∧ concretizeAtSomeTime(x,r) ∧ InitialState(i) ∧ FutureState(f) ∧ hasOccurrentPart(x,i) ∧ hasOccurentPart(x,f))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#variable</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an ICE that designate some entity and has continuant part at all times some &apos;design specification&apos;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#variable</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">variable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#example"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#variable</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a variable that represent a car by a textual representation Car1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+        <IRI>http://www.semanticweb.org/asumic/ontologies/2023/4/untitled-ontology-5#variable</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Variable → DesignativeInformationContentEntity(x) ∧ ∃d (DesignSpecification(d) ∧continuantPartOfAtAllTimes(x,d))</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
